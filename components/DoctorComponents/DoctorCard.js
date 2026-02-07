@@ -35,10 +35,8 @@ export default function DoctorCard(props) {
           </div>
 
           <div className="ml-4 flex items-center">
-            <Link href={`/doctor/${uid}`}>
-              <a className="inline-flex items-center px-3 py-2 bg-blue-500 text-white rounded-md text-sm hover:bg-blue-600 transition">
-                View Profile <FaAngleRight className="ml-2" />
-              </a>
+            <Link href={`/doctor/${uid}`} className="inline-flex items-center px-3 py-2 bg-blue-500 text-white rounded-md text-sm hover:bg-blue-600 transition">
+              View Profile <FaAngleRight className="ml-2" />
             </Link>
           </div>
         </div>
